@@ -2,7 +2,7 @@
 name = "tokenizer-core"
 version = "0.1.0"
 description = "Generic zero-copy token infrastructure for Logos lexers"
-authors = ["Jacobus Geluk <jacobus.geluk@dataroad.com>"]
+authors = ["DataRoad Inc, Delaware, USA, trading as Legra"]
 edition = "2024"
 rust-version = "1.97.1"
 build = "build.rs"
