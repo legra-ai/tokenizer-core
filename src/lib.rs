@@ -175,7 +175,7 @@ where
             });
         } else {
             let source_span = offsets_to_span(source, span.start, span.end);
-            let error = match source[span.clone()].chars().next() {
+            let error = match source[span].chars().next() {
                 Some(character) if is_confusable_operator_char(character) => {
                     TokenizeError::InvalidUnicodeCharacter { span: source_span }
                 }
